@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CSE Members App</string>
+    <string name="title_activity_user_menu">user_menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_weak_password">Weak password</string>
+    <string name="error_invalid_email">error invalid email</string>
+    <string name="error_user_exists">error user exists</string>
+</resources>

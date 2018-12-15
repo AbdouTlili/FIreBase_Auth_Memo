@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "565111066051",
+    "firebase_url": "https://cse-membres-app.firebaseio.com",
+    "project_id": "cse-membres-app",
+    "storage_bucket": "cse-membres-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565111066051:android:72567ba1b0e31e1a",
+        "android_client_info": {
+          "package_name": "com.example.abdou.csemembersapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565111066051-ak0ho0esnop49c1eilk1nnmqos4ou4cc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSpMKHAP-hYB4wCCH5ipJBRr9dS2LVx_M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

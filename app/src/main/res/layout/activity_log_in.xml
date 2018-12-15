@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/grd"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        android:text="Sign Up"
+        android:textColor="#eee"
+        android:textSize="72sp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/lTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" >
+
+        <EditText
+            android:id="@+id/userMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#eee"
+            android:hint="Your email :o"
+            android:inputType="textEmailAddress"
+            android:padding="20dp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/lTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" >
+
+        <EditText
+            android:id="@+id/userPasswd"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#eee"
+            android:hint="Your password here ;)"
+            android:inputType="textPassword"
+            android:padding="20dp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/logInButt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#109F8D"
+        android:text="login"
+        android:textColor="#eee" />
+
+    <Button
+        android:id="@+id/btnLinkToRegisterScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:background="#eee"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/btnForgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#eee"
+        android:text="Forgot Password"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="13sp" />
+
+</LinearLayout>
